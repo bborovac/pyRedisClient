@@ -1,5 +1,6 @@
 import redis
 
+
 redisServer = "192.168.99.100"
 
 r = redis.Redis(host=redisServer, port=6379, db=0)
